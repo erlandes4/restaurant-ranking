@@ -1,7 +1,10 @@
 import Image from "next/image";
+import StarRating from "./components/StarRating";
 
 export default function Home() {
-  return ( <div>quem é quem tem meu nome</div>
-   
+  return ( <div>
+    <StarRating/> 
+  </div>
   );
 }
+
