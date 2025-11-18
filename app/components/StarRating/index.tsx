@@ -5,7 +5,7 @@ import { IoMdStar } from "react-icons/io";
 
 export default function StarRating() { 
     const [rating, setRating] = useState(0);
-    const [ishovered, setishovered] = useState <[boolean,number]>([false,0])
+    const [ishovered, setishovered] = useState <[boolean, number]>([false, 0])
     return(
 <div className="flex gap-2">
     {[1, 2, 3, 4, 5].map((star) => (
